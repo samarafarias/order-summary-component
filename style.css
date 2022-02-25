@@ -42,6 +42,11 @@ body{
     background-color: var(--Verypaleblue);
 }
 
+.image{
+    margin-bottom: 5vh;
+    border-radius: 30px 30px 0px 0px;
+}
+
 h1{
     font-weight: 900;
 }
@@ -56,10 +61,12 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
     align-content: center;
     border: 13px solid var(--Verypaleblue);
-    height: 500px;
-    background-color: var(--Paleblue);
+    height: 416px;
+    background-color: var(--Verypaleblue);
 }
 
 #img-music{
@@ -99,11 +106,6 @@ button:hover{
     margin-bottom: 35px;
 }
 
-.image{
-    margin-bottom: 5vh;
-    border-radius: 30px 30px 0px 0px;
-}
-
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -113,4 +115,43 @@ button:hover{
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+
+    .box{
+        width: 345px;
+        height: 595px;
+        border-radius: 30px;
+    }
+    
+   
+    .image{
+        margin-bottom: 5vh;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .box2{
+        margin: 15px 56px 0px 10px;
+    }
+
+    #img-music{
+        margin-right: 11px;
+        margin-left: 94px;
+    }
+    
+    .text2{
+        margin-left: 20px;
+    }
+    
+    .link{
+        margin-inline: 53px;
+    }
+
+    button{
+        width: 285px;
+        height: 55px;
+    }
+
+
 }
